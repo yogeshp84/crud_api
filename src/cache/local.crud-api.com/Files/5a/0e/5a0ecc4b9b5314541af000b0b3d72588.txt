@@ -1,0 +1,4 @@
+a:6:{s:1:"k";s:10:"list_1_4_4";s:1:"d";a:2:{s:5:"count";i:7;s:5:"items";a:3:{i:0;a:6:{s:2:"id";i:5;s:5:"title";s:3:"abc";s:11:"description";s:3:"abc";s:6:"status";i:1;s:10:"created_by";i:1;s:10:"created_on";s:19:"2023-08-05 11:12:46";}i:1;a:6:{s:2:"id";i:4;s:5:"title";s:35:"abc test test test test test test 2";s:11:"description";s:188:"abc test test test test descr test 1 
+abc test test test test descr test 1 abc test test test test descr test 1 
+abc test test test test descr test 1 
+abc test test test test descr test 1 ";s:6:"status";i:1;s:10:"created_by";i:1;s:10:"created_on";s:19:"2023-08-05 10:26:45";}i:2;a:6:{s:2:"id";i:3;s:5:"title";s:3:"abc";s:11:"description";s:3:"abc";s:6:"status";i:1;s:10:"created_by";i:1;s:10:"created_on";s:19:"2023-08-05 10:19:57";}}}s:1:"e";O:8:"DateTime":3:{s:4:"date";s:26:"2023-08-07 09:55:02.041006";s:13:"timezone_type";i:3;s:8:"timezone";s:13:"Europe/Berlin";}s:1:"g";a:0:{}s:1:"m";N;s:1:"c";N;}

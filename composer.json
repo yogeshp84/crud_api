@@ -1,0 +1,20 @@
+{
+  "name": "yogesh/crud_api",
+  "description": "crud-api",
+  "type": "project",
+  "authors": [
+    {
+      "name": "yogeshp84",
+      "email": "yogesh.paliwal84@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "phpfastcache/phpfastcache": "^9.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
