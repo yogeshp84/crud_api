@@ -22,7 +22,11 @@ $end    = !empty($param['end']) ? $param['end'] : 10;
 //check for search string
 $searchKeyword = !empty($param['keyword']) ? $param['keyword'] :'';
 //create new post
-$key = 'list_'.$userData['id'].'_'.$start.'_'.$end;
+if($searchKeyword){
+    $key = $searchKeyword.'_list_'.$userData['id'].'_'.$start.'_'.$end;
+}else{
+    $key = 'list_'.$userData['id'].'_'.$start.'_'.$end;
+}
 $cacheInstance = $cache->getItem($key);
 $resp = $cacheInstance->get(); 
 //$resp = null;
